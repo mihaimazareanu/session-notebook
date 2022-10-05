@@ -1,0 +1,12 @@
+- git init: create empty local repository
+- git status: self explanatory
+- git add <filename> : add file to git
+- git commit -m "Messsage" (i.e. Initial commit): save changes in repository
+- git add . : add all changes
+- git restore --staged <filename> : delete added but not committed changes
+- git diff <filename> : shows changes made in the file
+- git restore <filename> : deletes all uncommited changes
+- git remote add origin <github repository SSH>
+- git push -u origin main
+- git clone <github repository SSH>
+- git push (don't need to use git remote again)
