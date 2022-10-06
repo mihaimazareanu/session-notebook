@@ -10,3 +10,7 @@
 - git push -u origin main
 - git clone <github repository SSH>
 - git push (don't need to use git remote again)
+- git switch -c <new branch name> : create and switch to the new branch
+- git switch <branch name> : only move to another branch
+- git push --set upstream origin <new branch name>: create the new branch in the remote repository and push the changes there
+- git pull : pull all the changes in the remote repository to your local repository
